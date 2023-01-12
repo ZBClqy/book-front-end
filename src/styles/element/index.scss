@@ -1,0 +1,29 @@
+
+// @/styles/element/index.scss
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": rgb(50, 56, 64),
+    ),
+    "success": (
+      "base": yellow,
+    ),
+    "warning": (
+      "base": yellow,
+    ),
+    "danger": (
+      "base": yellow,
+    ),
+    "error": (
+      "base": yellow,
+    ),
+    "info": (
+      "base": #fca106,
+    ),
+  ),
+ 
+  $button-padding-horizontal: (
+    "default": 80px
+  )
+
+);

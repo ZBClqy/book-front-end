@@ -1,0 +1,42 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "axios": "^1.2.1",
+    "element-plus": "^2.2.26",
+    "eslint": "^8.0.1",
+    "pinia": "^2.0.28",
+    "postcss-import": "^15.1.0",
+    "sass": "^1.56.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.2.45",
+    "vue-i18n": "^9.3.0-beta.10",
+    "vue-router": "4",
+    "wangeditor": "^4.7.15"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "typescript": "*",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^1.0.11"
+  }
+}
