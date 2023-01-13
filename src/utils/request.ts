@@ -18,7 +18,7 @@ http.interceptors.request.use(function (config:AxiosRequestConfig) {
 
 http.interceptors.response.use((response:AxiosResponse)=>{
   if(response.data.code==404){
-    // location.href=`http://bindsign.linqiaoyan.top/?redirceUrl=${location.href}`
+    location.href=`http://bindsign.linqiaoyan.top/?redirceUrl=${location.href}`
   }
   return response.data
 }, function (error:Error) {
